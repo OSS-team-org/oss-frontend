@@ -3,7 +3,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className="">
+    <div className="mx-4">
         <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
             <div className="container flex flex-wrap justify-between items-center mx-auto">
                 <Link href="/" className="flex items-center">
@@ -22,17 +22,17 @@ function Header() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/"> 
+                            <Link href="/">
                                 <a className="block py-2 pr-4 pl-3 text-gray-800 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Become a mentor</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/" 
+                            <Link href="/">
                                 <a className="block py-2 pr-4 pl-3 text-primary-700 border-b border-gray-300 hover:bg-gray-50 md:border rounded-lg">Log In</a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/" 
+                            <Link href="/">
                                 <a className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 md:border-0 rounded-lg md:bg-primary-700">Sign Up</a>
                             </Link>
                         </li>

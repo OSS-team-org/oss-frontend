@@ -9,6 +9,8 @@ function MyDocument() {
             href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap"
             rel="stylesheet"
           />
+          <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.5/dist/flowbite.min.css" />
+
         </Head>
         <body>
           <Main />

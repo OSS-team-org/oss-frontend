@@ -9,6 +9,7 @@ module.exports = {
       'gray-light': '#808080',
       'primary-600': '#7B9A32',
       'primary-700': '#5C7425',
+      'gradient': 'from-emerald-700',
     },
     fontSize: {
       'base': '1rem',
