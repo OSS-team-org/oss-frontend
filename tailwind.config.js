@@ -7,9 +7,10 @@ module.exports = {
   theme: {
     colors: {
       'gray-light': '#808080',
+      'gray-deep' : '#999999',
       'primary-600': '#7B9A32',
       'primary-700': '#5C7425',
-      'gradient': 'from-emerald-700',
+      'gray': '#E6E6E6',
     },
     fontSize: {
       'base': '1rem',
@@ -23,7 +24,15 @@ module.exports = {
       sans: ['Quicksand', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
-    extend: {},
+    extend: {
+      width: {
+        '70' : '14.375rem',
+        '100': '72rem',
+      },
+      lineHeight: {
+        '12': '5',
+      }
+    },
   },
   plugins: [
     require('flowbite/plugin')
