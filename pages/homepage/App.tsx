@@ -1,13 +1,13 @@
 import React from "react";
-import Banner from "../../components/HomePage/Banner";
-import MentorCard from "../../components/HomePage/MentorCard";
+import Banner from "../../components/homepage/Banner";
+import MentorCard from "../../components/homepage/MentorCard";
 import MentorCardData from "../../Data/mentorCardData";
-import ImpactCard from "../../components/HomePage/ImpactCard";
+import ImpactCard from "../../components/homepage/ImpactCard";
 import ImpactCardData from "../../Data/impactCardData";
-import MentorStats from "../../components/HomePage/MentorStats";
-import GrowthBanner from "../../components/HomePage/GrowthBanner";
-import Header from "../../components/HomePage/Header";
-import Footer from "../../components/HomePage/Footer";
+import MentorStats from "../../components/homepage/MentorStats";
+import GrowthBanner from "../../components/homepage/GrowthBanner";
+import Header from "../../components/homepage/Header";
+import Footer from "../../components/homepage/Footer";
 
 function App() {
   const mentorCards = MentorCardData.map((mentorCard) => (

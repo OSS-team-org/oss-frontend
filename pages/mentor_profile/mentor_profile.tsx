@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Head from "next/head";
-import Header from "../../components/HomePage/Header";
-import Footer from "../../components/HomePage/Footer";
+import Header from "../../components/homepage/Header";
+import Footer from "../../components/homepage/Footer";
 import TabSwitch from "../../components/mentor_profile/TabSwitch";
 import {
   Education,
