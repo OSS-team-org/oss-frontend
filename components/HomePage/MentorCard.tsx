@@ -18,7 +18,7 @@ export default function MentorCard({
   return (
     <div>
       <div className="mx-4 w-80 pr-2">
-        <Link href={"MentorProfile/mentor_profile"}>
+        <Link href={"mentor_profile/mentor_profile"}>
           <a
             className="block overflow-hidden rounded-lg border border-gray-100 shadow-sm"
             href="#"
