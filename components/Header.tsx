@@ -3,11 +3,11 @@ import React from "react";
 
 const Header: React.FC<{ navTitle?: string }> = ({ navTitle = "MMAP" }) => {
   return (
-    <div className="mx-auto max-w-5xl">
+    <div className="mx-auto max-w-6xl">
       <nav className="rounded border-gray-200 bg-white px-2 py-2.5 dark:bg-gray-800 sm:px-4">
         <div className="container mx-auto flex flex-wrap items-center justify-between">
           <Link href="/" className="flex items-center">
-            <span className="self-center whitespace-nowrap pl-4 text-xl font-semibold text-primary-600 dark:text-white md:p-0">
+            <span className="self-center whitespace-nowrap pl-4 text-xl font-semibold text-primary-700 dark:text-white md:p-0">
               {navTitle}
             </span>
           </Link>
