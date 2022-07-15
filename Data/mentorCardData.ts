@@ -1,0 +1,68 @@
+const MentorCardData = [
+  {
+    id: 1,
+    image: "/ivy.png",
+    name: "Ivy Barley",
+    description: "🇬🇭 Ghana - English, French +3 more",
+    title: "Programs Manager - Microsoft",
+    attributes: "Career growth, Women empowerment",
+  },
+  {
+    id: 2,
+    image: "/jane.png",
+    name: "Jane Awuah",
+    description: "🇿🇦 South Africa - English, Swahili",
+    title: "Growth Manager - WorldCraft",
+    attributes: "Leadership, Growth, Women empowerment",
+  },
+  {
+    id: 3,
+    image: "/gifty.png",
+    name: "Gifty Johnson",
+    description: "🇰🇪 Kenya - English, Swahili, French",
+    title: "Snr. Software Engineer - MoneyStack",
+    attributes: "Software development, Mentorship, Job search",
+  },
+  {
+    id: 4,
+    image: "/gifty2.png",
+    name: "Gifty Johnson",
+    description: "🇰🇪 Kenya - English, Swahili, French",
+    title: "Snr. Software Engineer - MoneyStack",
+    attributes: "Software development, Mentorship, Job search",
+  },
+  {
+    id: 5,
+    image: "/gifty3.png",
+    name: "Gifty Johnson",
+    description: "🇰🇪 Kenya - English, Swahili, French",
+    title: "Snr. Software Engineer - MoneyStack",
+    attributes: "Software development, Mentorship, Job search",
+  },
+  {
+    id: 6,
+    image: "/gifty4.png",
+    name: "Gifty Johnson",
+    description: "🇰🇪 Kenya - English, Swahili, French",
+    title: "Snr. Software Engineer - MoneyStack",
+    attributes: "Software development, Mentorship, Job search",
+  },
+  {
+    id: 7,
+    image: "/gifty5.png",
+    name: "Gifty Johnson",
+    description: "🇰🇪 Kenya - English, Swahili, French",
+    title: "Snr. Software Engineer - MoneyStack",
+    attributes: "Software development, Mentorship, Job search",
+  },
+  {
+    id: 8,
+    image: "/gifty6.png",
+    name: "Gifty Johnson",
+    description: "🇰🇪 Kenya - English, Swahili, French",
+    title: "Snr. Software Engineer - MoneyStack",
+    attributes: "Software development, Mentorship, Job search",
+  },
+];
+
+export default MentorCardData;
