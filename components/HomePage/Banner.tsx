@@ -1,5 +1,5 @@
 import Image from "next/future/image";
-import hero from "../public/hero.png";
+import hero from "../../public/hero.png";
 import React from "react";
 
 function Banner() {

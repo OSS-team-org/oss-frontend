@@ -1,5 +1,5 @@
 import Image from "next/future/image";
-import growth from "../public/growth.png";
+import growth from "../../public/growth.png";
 import React from "react";
 
 function GrowthBanner() {
