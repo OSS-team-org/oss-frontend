@@ -1,4 +1,3 @@
-import Link from "next/Link";
 import React from "react";
 import TabEducationCard from "./TabEducationCard";
 import TabWorkCard from "./TabWorkCard";

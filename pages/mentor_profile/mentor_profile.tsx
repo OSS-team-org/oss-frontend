@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import Head from "next/head";
 import Header from "../../components/HomePage/Header";
 import Footer from "../../components/HomePage/Footer";
-import TabSwitch from "../../components/MentorProfile/TabSwitch";
+import TabSwitch from "../../components/mentor_profile/TabSwitch";
 import {
   Education,
   Work_experience,
-} from "../../components/MentorProfile/tabInterfaces";
+} from "../../components/mentor_profile/tabInterfaces";
 import Image from "next/future/image";
 import Ivy from "../../public/ivy.png";
 
