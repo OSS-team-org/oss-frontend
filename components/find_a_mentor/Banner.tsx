@@ -7,9 +7,9 @@ function Banner() {
         <h1 className="text-xl font-bold text-[#333333] md:text-5xl">
           World class Mentors
         </h1>
-        <p className="text-lg font-semibold text-[#808080]">
+        <p className="md:text-lg font-semibold text-[#808080]">
           Contributing to the future of upscaling world class professionals and{" "}
-          <br />
+          <br className="hidden md:inline" />
           industry players.
         </p>
       </div>
