@@ -2,7 +2,7 @@ import Image from "next/future/image";
 import Link from "next/link";
 import React from "react";
 
-export default function MentorCard({
+export default function FindAMentorCard({
   image,
   title,
   name,
@@ -18,7 +18,7 @@ export default function MentorCard({
   return (
     <div>
       <div className="mx-4 w-80 pr-2">
-        <Link href={"mentor_profile/mentor_profile"}>
+        <Link href={"../../../mentor_profile/mentor_profile"}>
           <a
             className="block overflow-hidden rounded-lg border border-gray-100 shadow-sm"
             href="#"

@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../../components/homepage/Banner";
-import MentorCard from "../../components/homepage/MentorCard";
+import MentorCard from "../../components/find_a_mentor/FindAMentorCard";
 import MentorCardData from "../../Data/mentorCardData";
 import ImpactCard from "../../components/homepage/ImpactCard";
 import ImpactCardData from "../../Data/impactCardData";
