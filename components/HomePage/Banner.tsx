@@ -1,6 +1,7 @@
 import Image from "next/future/image";
 import hero from "../../public/hero.png";
 import React from "react";
+import Link from "next/link";
 
 function Banner() {
   return (
@@ -15,12 +16,14 @@ function Banner() {
         </h5>
 
         <div className="my-8 mx-auto flex flex-wrap justify-center gap-4">
-          <a
-            className="text-sm block w-full cursor-pointer rounded-lg bg-primary-700 px-12 py-3 font-bold text-white shadow hover:bg-primary-600 focus:outline-none focus:ring active:bg-primary-700 sm:w-auto"
-            href="#"
-          >
-            Find a Mentor
-          </a>
+          <Link href={"../../../find_a_mentor/FindAMentor"}>
+            <a
+              className="text-sm block w-full cursor-pointer rounded-lg bg-primary-700 px-12 py-3 font-bold text-white shadow hover:bg-primary-600 focus:outline-none focus:ring active:bg-primary-700 sm:w-auto"
+              href="#"
+            >
+              Find a Mentor
+            </a>
+          </Link>
           <a
             className="text-sm block w-full cursor-pointer rounded-lg border border-gray-200 px-12 py-3 font-bold text-primary-700 shadow hover:text-primary-600 focus:outline-none focus:ring active:text-primary-700 sm:w-auto"
             href="#"
