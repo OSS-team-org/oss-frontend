@@ -137,7 +137,7 @@ export default function Mentor_Profile() {
                     : "lg:text-[15px] text-2xl ease-in duration-75 delay-75 cursor-pointer"
                 }
               >
-                About
+                About 
               </span>
             </div>
             <div
