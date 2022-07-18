@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Head from "next/head";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import TabSwitch from "../components/TabSwitch";
-import { Education, Work_experience } from "../components/tabInterfaces";
+import Header from "../components/homepage/Header";
+import Footer from "../components/homepage/Footer";
+import TabSwitch from "../components/mentor_profile/TabSwitch";
+import { Education, Work_experience } from "../components/mentor_profile/tabInterfaces";
 
 
 
