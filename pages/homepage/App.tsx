@@ -34,7 +34,7 @@ function App() {
   ));
 
   return (
-    <div>
+    <div className="relative">
       <Header />
       <main className="mx-auto mb-24 max-w-5xl">
         {/**Banner */}

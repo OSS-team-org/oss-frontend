@@ -89,7 +89,8 @@ export default function Mentor_Profile() {
           <div className="border-blue-0 flex flex-col items-center justify-start   lg:!w-[64%] lg:items-start">
             <div className="border-pink-0 mb-[50px] flex min-h-[150px]    w-[60%] flex-col items-center justify-between  border-blue-200 lg:mb-[0] lg:min-h-[120px] lg:min-w-[98%] lg:items-start  lg:justify-evenly lg:pl-[0px]">
               <div className="  flex border-blue-200 lg:w-[100%] lg:flex-row lg:items-center lg:justify-between">
-                <div className="text-3xl font-extrabold text-[#333333] lg:text-[18px] ">
+                
+                <div className="text-xl font-extrabold text-[#333333] lg:text-[18px] ">
                   Ivy Barley
                 </div>
                 <div className="text-[bold] hidden h-[50px] w-[150px] cursor-pointer flex-row items-center justify-center rounded-lg border border-pink-200 bg-primary-700 shadow  hover:bg-primary-600 focus:outline-none focus:ring active:bg-primary-700 lg:flex ">
