@@ -7,7 +7,7 @@ const Welcome_back: React.FC<{
   title?: string;
   hidden?: string;
   toggle: fn;
-}> = ({ title = "MMAP", hidden = true, toggle }) => {
+}> = ({ title = "MMAP", hidden = "None", toggle }) => {
   const [hide, setHidden] = useState(hidden);
   useEffect(() => {
     setHidden(hidden);

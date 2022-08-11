@@ -26,7 +26,7 @@ const Mobile_Welcome_Back: React.FC<{
             <div className=" border-red-500 w-[90vw] flex justify-start items-center pb-[10px]">
           <span
             onClick={() => {
-              toggle("password");
+              toggle("None");
             }}
           >
             {" "}
